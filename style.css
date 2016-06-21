@@ -1,0 +1,23 @@
+.container {
+  border: 2px solid lightblue;
+  width: 400px;
+  margin: 2px; }
+  .container span {
+    display: block;
+    text-align: center;
+    background: turquoise;
+    height: 30px;
+    padding-top: 10px; }
+  .container p {
+    transition: max-height .4s ease-in-out;
+    max-height: 300px;
+    margin: 20px; }
+
+p.closed {
+  max-height: 0px;
+  overflow: hidden;
+  transition: max-height .2s ease-in-out; }
+
+span:hover {
+  transition: background-color 0.5s ease;
+  background: lightblue; }
