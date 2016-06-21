@@ -20,10 +20,10 @@
 p.closed {
   max-height: 0px;
   overflow: hidden;
-  transition: max-height .2s ease-in-out;
+  transition: max-height 1s ease-in-out;
 }
 
 span:hover{
-  transition: background-color 0.5s ease;
+  transition: background-color 1s ease;
   background: lightblue;
 }
